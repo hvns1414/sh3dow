@@ -32,7 +32,7 @@ bash
 python sh3d0w.py -s "path/to/folder"
 4. Decrypt a file
 bash
-Kodu kopyala
+
 python sh3d0w.py -s file.txt.enc -d -k <ENCRYPTION_KEY>
 Important: Save the encryption key when encrypting, you will need it to decrypt.
 
@@ -40,5 +40,6 @@ Notes
 Make sure Python 3.x is installed and added to your PATH.
 
 Tor must be running on 127.0.0.1:9050 for the Tor browser feature to work.
+
 
 The original files are deleted after encryption for security
